@@ -45,15 +45,20 @@ The ultimate goal of this work is to promote interoperability and specify cross-
 This proposal aims to:
 
 - Develop a shared understanding of cross-site cookie blocking and its potential security benefits between user agents and other stakeholders.
+
 - To support these security benefits, specify common rules and semantics for cross-site cookie blocking, for future standardization in HTML, Fetch and the Cookies RFC.
+
 - Discuss how existing proposals such as CHIPS or the Storage Access API might interact with cross-site cookie blocking to restore access to blocked SameSite=None cookies if needed.
 
 ## Non-Goals
 
 - We do not intend to discuss or change the commonly agreed upon cross-site privacy boundary for cookies that some browsers have already established.
 This proposal wants to discuss details on how this boundary might be designed pertaining both security and developer ergonomics, without compromising on its privacy properties.
+
 - We want to avoid adding dependencies on non-existing APIs to solve problems outlined in this proposal.
+
 - Most of the described behavior and APIs are shipping in browsers today and this document is an attempt to find pragmatic solutions that can be easily implemented and standardized.
+
 - We encourage new proposals that build on top of this work to further strengthen the security posture through the development of new APIs.
 
 ## Proposal
