@@ -14,7 +14,7 @@
 - [Proposal](#proposal)
     - [Guiding Principles](#guiding-principles)
     - [Overview](#overview)
-- [Scenarios]
+- [Scenarios](#scenarios)
     - [Same-site Embeds with Cross-Site Ancestors (ABA embeds)](#same-site-embeds-with-cross-site-ancestors-aba-embeds)
         - [Security Considerations](#security-considerations)
         - [Developer Utility](#developer-utility)
