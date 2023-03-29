@@ -79,7 +79,7 @@ This may involve utilization of other functionality such as CHIPS or the Storage
 
 In short, we want to propose the following updates to the current (unspecified) status quo:
 
-- In embedded contexts, establish third-party cookie blocking based on "site for cookies" as the default behavior across user agents, except for “navigational requests” (iframe or top-level navigations) as outlined below.
+- In embedded contexts, establish third-party cookie blocking based on ["site for cookies"](https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-rfc6265bis-11#section-5.2.1) as the default behavior across user agents, except for “navigational requests” (iframe or top-level navigations) as outlined below.
 
 - Update the Storage Access API to ensure that it grants access to unpartitioned cookies in the ABA embed scenario detailed below.
 
