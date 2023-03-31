@@ -105,7 +105,7 @@ When current third-party cookie blocking controls are enabled, major browsers' b
 
 - Firefox allows the ABA embed to read cookies set by A as the top-level site, but the ABA embed cannot write new cookies.
 
-- Safari allows ABA embeds to read and write cookies, including with headers in subresource requests to A that originate from an embedded site B frame.
+- Safari and Brave allow ABA embeds to read and write cookies, including with headers in subresource requests to A that originate from an embedded site B frame.
 
 #### Security Considerations
 
