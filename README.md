@@ -101,7 +101,7 @@ For brevity, we call these embeds ABA embeds.
 
 When current third-party cookie blocking controls are enabled, major browsers' behaviors differ:
 
-- Chrome will always block cookies in the ABA embed unless the inner 1p.com frame [requests storage access](https://developer.mozilla.org/en-US/docs/Web/API/Storage_Access_API). Chrome will autogrant requests in these contexts.
+- Chrome will always block cookies in the ABA embed unless the inner 1p.com frame [requests storage access](https://developer.mozilla.org/en-US/docs/Web/API/Storage_Access_API). Chrome will auto-grant requests in these contexts.
 
 - Firefox allows the ABA embed to read cookies set by A as the top-level site, but the ABA embed cannot write new cookies.
 
